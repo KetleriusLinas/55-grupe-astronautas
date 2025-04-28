@@ -1,4 +1,4 @@
-# Astronout
+# Astronautas
 
 _website design project_
 
@@ -8,7 +8,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://ketleriuslinas.github.io/55-grupe-astronautas/
+Site published at: https://front-end-by-rimantas.github.io/55-grupe-astronautas
 
 Design: ![alt text](./original-design.png)
 
@@ -16,7 +16,21 @@ Design: ![alt text](./original-design.png)
 
 -   Github pages
 -   no responsive design
--   inline CSS
+-   CSS file
+-   FontAwesome icons
+-   display: flex
+-   hover state
+-   bash commands:
+    -   `touch index.html` (sukuria faila)
+    -   `touch failas1.txt failas2.txt failas3.txt failas4.txt`
+    -   `mkdir img` (sukuria folderi/direktorija)
+    -   `mkdir folder1 folder2 folder3 folder4`
+    -   `ls -al` (stulpeliu atvaizduoja direktorijoje esanti turini)
+-   git commands:
+    -   `git init`
+    -   `git add .`
+    -   `git commit -m "Message text"`
+    -   `git push`
 
 ## 🧰 Getting Started
 
@@ -40,7 +54,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://ketleriuslinas.github.io/55-grupe-astronautas/
+    git clone https://github.com/front-end-by-rimantas/54-grupe-astronautas.git
     ```
 2. Install NPM packages
     ```sh
@@ -61,7 +75,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Linas: [Github](https://github.com/KetleriusLinas)
+Rimantas: [Github](https://github.com/belauzas)
 
 ## ⚠️ License
 
