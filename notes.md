@@ -5,6 +5,8 @@
 
 touch git init
 .gitignore
+git add . (surenka viska talpinant i git)
+git commit -m "New project astronout" (commitas ir zinute)
 
 node_modules
 .vscode
