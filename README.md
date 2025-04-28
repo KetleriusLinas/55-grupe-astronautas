@@ -26,6 +26,7 @@ Design: ![alt text](./original-design.png)
     -   `mkdir img` (sukuria folderi/direktorija)
     -   `mkdir folder1 folder2 folder3 folder4`
     -   `ls -al` (stulpeliu atvaizduoja direktorijoje esanti turini)
+    -   `rm failo pavadinimas` (pasalina faila)
 -   git commands:
     -   `git init`
     -   `git add .`
