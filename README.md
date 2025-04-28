@@ -1,4 +1,4 @@
-# Serlokas
+# Astronout
 
 _website design project_
 
