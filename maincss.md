@@ -108,11 +108,19 @@ footer {
     background-color: lightcoral;
 }
 
-footer>div {
+footer > div {
     float: left;
 }
 
-footer>p {
+footer > p {
+    margin-bottom 40px;
     margin: 0;
     float: right;
+}
+
+
+// pseudo selektoriai!
+.sub-title::first-letter {
+    color: red;
+    font-size: 100px;
 }

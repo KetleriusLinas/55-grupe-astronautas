@@ -19,7 +19,7 @@ header {
 }
 
 footer {
-    background-color: lightgray;
+    margin-bottom: 40px;
 }
 
 .logo {
@@ -28,6 +28,7 @@ footer {
 
 .main-nav {
     display: flex;
+
     gap: 20px;
 }
 
@@ -64,7 +65,14 @@ footer {
     font-size: 50px;
     font-weight: bold;
 }
-
+/* content privaloma savybe,(nors tuscia) be jos neveiks pseudo selektorius */
+.sub-title::after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #554485;
+}
 .description {
     margin: 0;
     margin-bottom: 40px;
@@ -112,9 +120,19 @@ footer {
     width: 60%;
 }
 
-.socials {}
+.socials {
+    display: flex;
+    gap: 24px;
+}
 
-.socials>.icon {}
+.socials > .icon {
+    font-size: 24px;
+    text-decoration: none;
+    color: #c5c5c5;
+}
+.socials > .icon:hover {
+    color: red;
+}
 
 .copyright {
     margin: 0;
